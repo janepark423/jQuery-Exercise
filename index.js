@@ -1,8 +1,8 @@
 var app = new Vue({
-  el:'#app',
+  el:'#root',
   data:{
     sectionStyle: {
-      backgroundColor:'red',
+      'background-color':'skyblue',
       height:'100px'
     }
   }

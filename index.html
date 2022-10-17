@@ -13,8 +13,8 @@
  <script src="./custom-vue.min.js"></script>
 <body>
 
-<div id="app">
-  <section v-bind:style="sectionStyle">클릭해보세요</section>
+<div id="root">
+  <section :style="sectionStyle">{{sectionStyle}}</section>
 </div>
 </body>
 
