@@ -8,17 +8,17 @@
  <link rel="stylesheet" href="./index.css">
  </head>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- <script src="/index.js" ></script>
+
+ <script src="./index.js"  type="module"   ></script>
+ <script src="./custom-vue.min.js"></script>
 <body>
 
-<h1>sj 예제</h1>
-<button class="up">위</button>
-<button class="down">아래</button>
-
-<div class="a">1</div>
-<div class="a">2</div>
-<div class="a">3</div>
-<div class="a active">4</div>
+<div id="app">
+이름 : {{이름}}<br>
+나이 : {{나이}}<br>
+제목: {{제목}}<br>
+내용: {{내용}}<br>
+</div>
 
 
 </body>
