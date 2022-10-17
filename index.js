@@ -1,9 +1,9 @@
 var app = new Vue({
   el:'#app',
   data:{
-    이름: '홍길동',
-    나이: 22,
-    제목:'안녕하세요',
-    내용: '내용이에요'
+    sectionStyle: {
+      backgroundColor:'red',
+      height:'100px'
+    }
   }
 })
